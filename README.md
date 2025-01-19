@@ -21,7 +21,6 @@ Debian packages, archives for Linux and Windows [can be downloaded here]
 
 Nothing else has to be installed. The server doesn't require any external dependencies.
 
-In the Debian package, the example configuration file can be found in `/usr/share/doc/encrypted-dns/`.
 
 ### Option 2: compilation from source code
 
@@ -37,11 +36,11 @@ source $HOME/.cargo/env
 Once rust is installed, the proxy can be compiled and installed as follows:
 
 ```sh
-cargo install encrypted-dns
-strip ~/.cargo/bin/encrypted-dns
+cargo install ghost
+strip ~/.cargo/bin/ghost
 ```
 
-The executable file will be copied to `~/.cargo/bin/encrypted-dns` by default.
+The executable file will be copied to `~/.cargo/bin/ghost` by default.
 
 ### Options 3: Docker
 
